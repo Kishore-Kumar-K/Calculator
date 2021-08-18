@@ -1,4 +1,4 @@
-          var outputScreen = document.getElementById("output-screen");
+  var outputScreen = document.getElementById("output-screen");
 
       function display(num){
         outputScreen.value += num;
@@ -22,5 +22,3 @@ function Del()
 outputScreen.value= outputScreen.value.slice(0,-1);
 }
 
-
-    
