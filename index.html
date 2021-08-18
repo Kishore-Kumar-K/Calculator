@@ -32,35 +32,5 @@
 <button onclick="calculate()" class="equal">=</button>
 </div>
     </div>
-
-    <p>Click here to download the resume<p>
-
-    <script type="text/javascript">
-      var outputScreen = document.getElementById("output-screen");
-
-      function display(num){
-        outputScreen.value += num;
-      }
-      function calculate()
-      {
-        try{
-          outputScreen.value= eval(outputScreen.value);
-                  }
-                  catch(err)
-                  {
-                    alert("wrong calculation")
-                  }
-      }
-function Clear()
-{
-outputScreen.value="";
-}
-function Del()
-{
-outputScreen.value= outputScreen.value.slice(0,-1);
-}
-
-
-      </script>
 </body>
 </html> 
